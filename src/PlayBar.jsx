@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles.css";
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import "./styles.css";
 
 function PlayBar(){
 return <div className="progressbar">

@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import Photo from "./Photo";
 import SongName from "./SongName";
 import PlayBar from "./PlayBar";
@@ -7,7 +6,7 @@ import PlayBar from "./PlayBar";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPause, faForward, faBackward, faArrowLeft, faBars} from '@fortawesome/free-solid-svg-icons';
-
+import "./styles.css";
 function PlayingNow() {
   return (
     <div>
