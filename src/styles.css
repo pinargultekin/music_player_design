@@ -1,10 +1,10 @@
 *, ::after, ::before{
 padding:0px;
 margin:0px;
-
 }
 
 .App {
+  margin-top:30px;
   font-family: sans-serif;
   text-align: center;
   font-family: "Gayathri", sans-serif;
@@ -73,15 +73,15 @@ margin:0px;
 .button-group-bottom{
 margin-top:60px;
 }
-.button-group-top>.btn-primary{
+.button-group-top>button{
   width: 40px;
   height: 40px;
   margin: 20px 45px;
 }
-.button-group-top>.btn-primary:last-child{
+.button-group-top>button:last-child{
 margin-right:-35px;
 }
-.button-group-top>.btn-primary:first-child{
+.button-group-top>button:first-child{
 margin-left:-35px;
 }
 
@@ -90,33 +90,23 @@ margin-left:-35px;
  width: 40%;
  font-size:18px;
 }
-.btn-primary {
+button {
   margin: 10px;
   padding: 5px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   background: transparent;
-
-  /* background: linear-gradient(
-    125deg,
-    rgba(255, 68, 0, 0.577),
-    rgba(255, 166, 0, 0.227)
-  ); */
   -webkit-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
   -moz-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
   box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
   border: none;
 }
-.btn-primary:hover {
-  background: rgba(255, 68, 0, 0.316);
 
-  /* background: linear-gradient(
-    125deg,
-    rgba(255, 68, 0, 0.721),
-    rgba(255, 166, 0, 0.495)
-  ); */
+button:hover {
+  background: rgba(255, 68, 0, 0.316);
 }
+
 .svg-inline--fa{
 vertical-align: middle;
 color:rgba(255, 68, 0, 0.582);

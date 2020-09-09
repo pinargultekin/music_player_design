@@ -2,8 +2,7 @@ import React from "react";
 import Photo from "./Photo";
 import SongName from "./SongName";
 import PlayBar from "./PlayBar";
-// import Buttons from "./Buttons";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPause, faForward, faBackward, faArrowLeft, faBars} from '@fortawesome/free-solid-svg-icons';
 import "./styles.css";
@@ -11,17 +10,17 @@ function PlayingNow() {
   return (
     <div>
       <div className="button-group-top">
-        <Button><FontAwesomeIcon icon={faArrowLeft} /></Button>
+        <button><FontAwesomeIcon icon={faArrowLeft} /></button>
         <p>Playing Now</p>
-        <Button><FontAwesomeIcon icon={faBars} /></Button>
+        <button><FontAwesomeIcon icon={faBars} /></button>
       </div>
       <Photo />
       <SongName />
       <PlayBar />
       <div className="button-group-bottom">
-        <Button><FontAwesomeIcon icon={faBackward} /></Button>
-        <Button><FontAwesomeIcon icon={faPause} /></Button>
-        <Button><FontAwesomeIcon icon={faForward} /></Button>
+        <button><FontAwesomeIcon icon={faBackward} /></button>
+        <button><FontAwesomeIcon icon={faPause} /></button>
+        <button><FontAwesomeIcon icon={faForward} /></button>
       </div>
     </div>
   );
