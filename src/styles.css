@@ -1,6 +1,7 @@
 *, ::after, ::before{
 padding:0px;
 margin:0px;
+
 }
 
 .App {
@@ -57,16 +58,15 @@ margin:0px;
   margin: 0 auto;
   margin-top: 60px;
   z-index: -1;
-}
-.progress {
   background-color: rgba(255, 68, 0, 0.316);
-}
-.progress-bar {
   border-radius: 6px;
 }
-.bg-warning {
+.progress {
   background-color: rgba(255, 68, 0, 0.823) !important;
+  width:45%;
+  border-radius: 6px;
 }
+
 
 /* BUTTONS */
 
