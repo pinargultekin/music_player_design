@@ -17,7 +17,7 @@ margin:0px;
   width: 375px;
   height: 812px;
   margin: auto;
-  background-color: rgb(254, 238, 231);
+  background-color: rgba(254, 238, 231, 0.303);
   border-radius: 50px;
 }
 
@@ -57,7 +57,6 @@ margin:0px;
   width: 90%;
   margin: 0 auto;
   margin-top: 60px;
-  z-index: -1;
   background-color: rgba(255, 68, 0, 0.316);
   border-radius: 6px;
 }
@@ -70,32 +69,36 @@ margin:0px;
 
 /* BUTTONS */
 
+/* .button-group-top{
+padding-top:30px;
+} */
+
 .button-group-bottom{
 margin-top:60px;
 }
 .button-group-top>button{
   width: 40px;
   height: 40px;
-  margin: 20px 45px;
+  margin: 20px 45px!important;
 }
 .button-group-top>button:last-child{
-margin-right:-35px;
+margin-right:-35px!important;
 }
 .button-group-top>button:first-child{
-margin-left:-35px;
+margin-left:-35px!important;
 }
 
 .button-group-top>p{
- display:inline-block;
+ display:inline-block!important;
  width: 40%;
  font-size:18px;
 }
 button {
-  margin: 10px;
+  margin: 10px!important;
   padding: 5px;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 50%!important;
   background: transparent;
   -webkit-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);
   -moz-box-shadow: 5px 5px 5px 2px rgba(193, 180, 174, 0.234);

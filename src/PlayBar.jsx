@@ -3,7 +3,7 @@ import React from "react";
 import "./styles.css";
 
 function PlayBar(){
-return <div className="progressbar">
+return <div className="progressbar"> 
 <div className="progress"> </div>
 {/* <ProgressBar variant="warning" animated now={45}  /> */}
 
