@@ -3,4 +3,4 @@
 Created with CodeSandbox
 
 <hr>
-<img src="./images/music-player.PNG">
+<img src="./src/images/music-player.PNG">
